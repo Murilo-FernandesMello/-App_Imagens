@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/linearLayout">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgFoto"
+        android:src="@drawable/foto1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foto 1"
+        android:id="@+id/txtInformacao"
+        android:textSize="20sp"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="35dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btFoto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:text="Exibir Foto 1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:backgroundTint="@color/yeallow"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exibir Foto 2"
+        android:id="@+id/btFoto2"
+        android:layout_below="@id/btFoto1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:backgroundTint="@color/blue"/>
+
+</RelativeLayout>
